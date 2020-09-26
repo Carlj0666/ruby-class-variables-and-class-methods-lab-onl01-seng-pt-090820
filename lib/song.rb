@@ -41,4 +41,3 @@ class Song
     genre_counter
   end
 end
-end
