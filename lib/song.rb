@@ -37,6 +37,7 @@ class Song
       #binding.pry
     # @@genres.each do |genre, count|
     genre_counter.merge!(@genre, @@count)
+  end
     genre_counter
   end
 end
