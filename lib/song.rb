@@ -42,6 +42,6 @@ class Song
       #   genre_counter[genre] << count
       # end
   end
-    genre_counter
+    # genre_counter
   end
 end
