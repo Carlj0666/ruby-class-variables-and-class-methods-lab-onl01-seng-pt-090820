@@ -18,7 +18,6 @@ class Song
     @@genres << genre
     @@artists << artist
   end
-end
   
   
   def self.count
@@ -39,6 +38,8 @@ end
     @@genres.each do |genre|
       genre_counter[genre] = @@count
   end
- genre_counter
+  
 
+  end
+    genre_counter
 end
