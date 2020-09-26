@@ -39,7 +39,7 @@ class Song
       if genre_counter[genre] = 0
         genre_counter[genre] = @@count
       else
-        genre_counter[genre] += 1
+        genre_counter[genre] << @@count
       end
   end
       genre_counter
