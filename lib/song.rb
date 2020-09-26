@@ -36,10 +36,10 @@ class Song
     genre_counter = {}
       #binding.pry
     @@genres.each do |genre|
-      if genre_counter[genre] = 0
-        genre_counter[genre] = @@count
-      else
+      if genre_counter[genre] = 1
         genre_counter[genre] << @@count
+      else
+        genre_counter[genre] = @@count
       end
   end
       genre_counter
