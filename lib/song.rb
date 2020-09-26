@@ -40,6 +40,5 @@ end
       genre_counter[genre] = @@count
   end
  genre_counter
-  end
 
 end
