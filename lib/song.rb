@@ -40,7 +40,7 @@ class Song
         genre_counter[@@genre] = @@count
 end
 end
-  
+      genre_counter
   end
-    genre_counter
+
 end
